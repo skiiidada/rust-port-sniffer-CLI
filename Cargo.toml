@@ -1,0 +1,8 @@
+[package]
+name = "rust_port_snifer_CLI"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+bpaf = {version = "0.7", features = ["derive", "bright-color"]}
